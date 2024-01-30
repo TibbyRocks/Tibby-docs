@@ -1,0 +1,15 @@
+.callout{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-style: solid;
+    padding: 20px;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+}
+
+.callout_content {
+    padding: 20px;
+    margin: 0;
+}
