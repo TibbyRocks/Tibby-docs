@@ -29,6 +29,11 @@ summaryLength = 30
     url = "/docs/"
     weight = 2
 
+[[menu.main]]
+    name = "🔎 Search"
+    url = "/search/"
+    weight = 3
+
 [params]
   google_analytics_id=""
   homepage_docs_button_link = '/docs'
