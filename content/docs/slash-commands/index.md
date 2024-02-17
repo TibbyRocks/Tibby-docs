@@ -16,14 +16,17 @@ When reading using these commands, `[]` indicates optional parameters and `<>` i
 #### /8ball [message]
 `/8ball` provides you with a yes or no answer, if you give it a message (ideally a question) it will be included in the response.
 
-#### /batlibs \<message\>
-`/batlibs` takes a message with tokens and replaces those tokens with words from the corresponding category.  
+#### /radlibs \<message\>
+`/radlibs` takes a message with tokens and replaces those tokens with words from the corresponding category.  
 
 The tokens currently supported are as follows:
- - $NOUN
- - $VERB
+ - $NOUN (Singular nouns)
+ - $NOUNS (Plural nouns)
+ - $VERB (verb, root)
+ - $VERBING (verb, root + "ing")
  - $ANIMAL
  - $FRUIT
+ - $ADJ (Adjective)
 
 
 
