@@ -27,6 +27,7 @@ The tokens currently supported are as follows:
  - $ANIMAL
  - $FRUIT
  - $ADJ (Adjective)
+ - $ADVERB
 
 
 
