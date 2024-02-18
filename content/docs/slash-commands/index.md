@@ -13,11 +13,15 @@ Tibby supports some slash commands that don't require much explanation. Those ar
 When reading using these commands, `[]` indicates optional parameters and `<>` indicates required ones
 {{< /callout >}}
 
-#### /8ball [message]
-`/8ball` provides you with a yes or no answer, if you give it a message (ideally a question) it will be included in the response.
+#### /8ball
+**Usage**: /8ball [message]  
 
-#### /radlibs \<message\>
-`/radlibs` takes a message with tokens and replaces those tokens with words from the corresponding category.  
+Provides you with a yes or no answer, if you give it a message (ideally a question) it will be included in the response.
+
+#### /radlibs
+**Usage**: /radlibs \<message\>  
+
+Takes a message with tokens and replaces those tokens with words from the corresponding category.  
 
 The tokens currently supported are as follows:
  - $NOUN (Singular nouns)
@@ -29,8 +33,10 @@ The tokens currently supported are as follows:
  - $ADJ (Adjective)
  - $ADVERB
 
-#### /wisdom [quoteID]
-`/wisdom` returns a random quote from the quotable.io API. Each quote has an ID and you can retrieve a specific quote with its ID by passing it to the command.
+#### /wisdom
+**Usage:** /wisdom [quoteID]  
+
+Returns a random quote from the quotable.io API. Each quote has an ID and you can retrieve a specific quote with its ID by passing it to the command.
 
 
 
