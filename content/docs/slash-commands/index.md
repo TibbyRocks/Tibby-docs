@@ -29,6 +29,9 @@ The tokens currently supported are as follows:
  - $ADJ (Adjective)
  - $ADVERB
 
+#### /wisdom [quoteID]
+`/wisdom` returns a random quote from the quotable.io API. Each quote has an ID and you can retrieve a specific quote with its ID by passing it to the command.
+
 
 
 
