@@ -29,10 +29,15 @@ summaryLength = 30
     url = "/docs/"
     weight = 2
 
+[[menu.main]]
+    name = "Privacy"
+    url = "/docs/privacy/"
+    weight = 3
+
 #[[menu.main]]
 #    name = "🔎 Search"
 #    url = "/search/"
-#    weight = 3
+#    weight = 4
 
 [params]
   google_analytics_id=""
