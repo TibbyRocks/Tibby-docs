@@ -32,6 +32,7 @@ The tokens currently supported are as follows:
  - $FRUIT
  - $ADJ (Adjective)
  - $ADVERB
+ - $CHATTER (picks a random person from chat, tries to get a nickname first but the Discord API is a little inconsistent)
 
 #### /wisdom
 **Usage:** /wisdom [quoteID]  
